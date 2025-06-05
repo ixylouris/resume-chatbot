@@ -1,0 +1,7 @@
+interface Message {
+    id:string,
+    text:string,
+    sender: "user" | "ai",
+    timestamp: string
+}
+export default Message;
